@@ -1,17 +1,21 @@
-# Vanya BK — Minimal GitHub Pages homepage
+# Vanya BK personal website
 
-This version intentionally avoids a hero section, decorative cards, gradients, illustrations, and persistent navigation. It is a single, responsive, static homepage inspired by restrained academic sites.
+A quiet, research-first GitHub Pages homepage modelled on the *information hierarchy* of a traditional academic research page: compact biography, small portrait at right, a short research statement, and paper rows with previews.
 
 ## Publish
 
-1. Download this folder or the accompanying ZIP file.
-2. In `VanyaBK/vanyabk.github.io`, replace the homepage files with `index.html`, `styles.css`, and `script.js`.
-3. Commit to the branch used by GitHub Pages.
+1. Replace the contents of the root of `VanyaBK/vanyabk.github.io` with the files in this folder.
+2. Commit and push to `main`.
+3. In GitHub, ensure **Settings → Pages** is set to deploy from `main` at `/ (root)`.
 
-No build tooling is required.
+The site is pure HTML and CSS; no build step is needed.
 
 ## Before publishing
 
-- Update the email address if needed.
-- Add a public CV link only after removing personal contact details from the PDF.
-- Confirm the desired paper links for publications without public links.
+- Replace `assets/profile-placeholder.svg` with a square photo named `profile.jpg` and change the `<img>` source in `index.html` to `assets/profile.jpg`.
+- The packaged CV is the supplied resume. Remove or replace it before publishing if you do not want its contact details publicly accessible.
+- Update or remove any social link whose destination you want to change.
+
+## Design intent
+
+This deliberately uses a white page, standard blue links, normal-sized type, and no hero/banner treatment. The paper tiles are intentionally monochrome and function like paper thumbnails rather than portfolio cards.
