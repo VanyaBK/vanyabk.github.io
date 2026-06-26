@@ -3,27 +3,23 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Vanya Bannihatti Kumar — machine learning researcher and engineer working on creative intelligence, multimodal learning, and reliable evaluation." />
-  <meta name="theme-color" content="#f5f2ec" />
-  <meta property="og:title" content="Vanya Bannihatti Kumar — Machine Learning Researcher" />
-  <meta property="og:description" content="Creative intelligence, multimodal learning, and reliable evaluation." />
+  <meta name="description" content="Vanya Bannihatti Kumar — machine learning engineer and researcher." />
+  <meta name="theme-color" content="#fcfcfb" />
+  <meta property="og:title" content="Vanya Bannihatti Kumar" />
+  <meta property="og:description" content="Machine learning engineer and researcher." />
   <meta property="og:type" content="website" />
   <title>Vanya Bannihatti Kumar</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,450;6..72,500;6..72,600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#content">Skip to content</a>
 
-  <header class="site-header" id="top">
-    <div class="header-inner">
-      <a class="wordmark" href="#top" aria-label="Back to top">Vanya B. Kumar</a>
-      <button class="menu-button" aria-expanded="false" aria-controls="site-nav">Menu</button>
-      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-        <a href="#work">Research</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="site-name" href="#top">Vanya Bannihatti Kumar</a>
+      <nav aria-label="Primary navigation">
+        <a href="#research">Research</a>
         <a href="#publications">Publications</a>
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
@@ -31,208 +27,127 @@
     </div>
   </header>
 
-  <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="kicker">Machine learning researcher &amp; engineer · Bay Area</p>
-        <h1 id="hero-title">Learning systems for<br><em>open-ended, creative work.</em></h1>
-        <p class="hero-intro">I build evaluation and training systems for creative generation, multimodal learning, and model reliability.</p>
-        <div class="hero-links" aria-label="Professional links">
+  <main class="shell" id="content">
+    <section class="intro" id="top" aria-labelledby="page-title">
+      <div>
+        <h1 id="page-title">Vanya Bannihatti Kumar</h1>
+        <p class="role">Machine Learning Engineer, <a href="https://www.adobe.com/" target="_blank" rel="noreferrer">Adobe GenStudio</a></p>
+      </div>
+      <div class="intro-copy">
+        <p>I work on creative generation and evaluation, multimodal learning, and more reliable generative systems.</p>
+        <p class="link-row">
           <a href="mailto:vanyabk999@gmail.com">Email</a>
           <a href="https://github.com/VanyaBK" target="_blank" rel="noreferrer">GitHub</a>
           <a href="https://scholar.google.com/citations?hl=en&amp;user=ziDbA7AAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
-        </div>
+        </p>
       </div>
-
-      <aside class="now" aria-label="Current role and background">
-        <p class="now-label">Currently</p>
-        <p class="now-role">Machine Learning Engineer<br>at <strong>Adobe GenStudio</strong></p>
-        <div class="now-rule"></div>
-        <p class="now-label">Previously</p>
-        <p class="now-list">Adobe Research<br>Carnegie Mellon University<br>ByteDance AI Lab</p>
-      </aside>
     </section>
 
-    <section class="statement section" aria-labelledby="statement-title">
-      <div class="section-label"><span>01</span> Research direction</div>
-      <div class="statement-grid">
-        <h2 id="statement-title">I’m interested in the parts of intelligence that are difficult to reduce to a single right answer.</h2>
-        <div class="statement-copy">
-          <p>My work studies how models can learn individual creative preferences, use multimodal context when it genuinely changes an answer, and be evaluated carefully on subjective or under-specified tasks.</p>
-          <p>These questions take the form of benchmarks, training objectives, and product-facing systems.</p>
-        </div>
-      </div>
-      <div class="focus-list" aria-label="Research themes">
+    <section class="section" id="research" aria-labelledby="research-title">
+      <h2 id="research-title">Research</h2>
+      <div class="research-list">
         <article>
-          <p class="focus-number">A</p>
           <h3>Creative intelligence</h3>
-          <p>Preference learning and personalized evaluation for open-ended generation.</p>
+          <p>Methods for representing and evaluating individual preferences in open-ended generation, particularly for writing and marketing content.</p>
         </article>
         <article>
-          <p class="focus-number">B</p>
           <h3>Multimodal learning</h3>
-          <p>Using vision, speech, and language where one modality is not enough.</p>
+          <p>Systems that use language, vision, and speech together when additional context changes what a model should infer or generate.</p>
         </article>
         <article>
-          <p class="focus-number">C</p>
           <h3>Reliable evaluation</h3>
-          <p>Benchmarks and explanation methods that make failure modes legible.</p>
+          <p>Benchmarks and training signals for understanding subjective quality, distribution shift, and model failure modes.</p>
         </article>
       </div>
     </section>
 
-    <section class="work section section-tint" id="work" aria-labelledby="work-title">
-      <div class="section-topline">
-        <div class="section-label"><span>02</span> Selected work</div>
-        <p>Projects at the intersection of subjective judgment, multimodal evidence, and model evaluation.</p>
+    <section class="section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading">
+        <h2 id="publications-title">Selected publications</h2>
+        <a class="minor-link" href="https://scholar.google.com/citations?hl=en&amp;user=ziDbA7AAAAAJ" target="_blank" rel="noreferrer">Full list on Google Scholar</a>
       </div>
-      <div class="work-list">
-        <article class="work-item work-item-featured">
-          <div class="work-meta"><span>2025—26</span><span>Creative AI · Evaluation</span></div>
-          <div class="work-body">
-            <h2 id="work-title">Curiosity-Driven LLM-as-a-Judge for Personalized Creative Judgment</h2>
-            <p>Models creative evaluation as individual preference learning rather than a single consensus label, using a curiosity-based signal to capture how a judge’s belief changes as it encounters creative work.</p>
-          </div>
-          <a class="quiet-link" href="https://arxiv.org/abs/2510.05135" target="_blank" rel="noreferrer">Read on arXiv <span aria-hidden="true">↗</span></a>
-        </article>
 
-        <article class="work-item">
-          <div class="work-meta"><span>2023</span><span>Multimodal Speech · ASR</span></div>
-          <div class="work-body">
-            <h3>Visual Information Matters for ASR Error Correction</h3>
-            <p>Introduces visual context and a benchmark for ASR correction cases where speech and text alone cannot disambiguate the intended meaning.</p>
-          </div>
-          <a class="quiet-link" href="https://arxiv.org/abs/2303.10160" target="_blank" rel="noreferrer">Read on arXiv <span aria-hidden="true">↗</span></a>
-        </article>
-
-        <article class="work-item">
-          <div class="work-meta"><span>2024</span><span>Speech · Benchmarking</span></div>
-          <div class="work-body">
-            <h3>ML-SUPERB 2.0</h3>
-            <p>Extends multilingual speech-model evaluation across downstream architectures, adaptation strategies, languages, and datasets.</p>
-          </div>
-          <a class="quiet-link" href="https://arxiv.org/abs/2406.08641" target="_blank" rel="noreferrer">Read on arXiv <span aria-hidden="true">↗</span></a>
-        </article>
-      </div>
-    </section>
-
-    <section class="publications section" id="publications" aria-labelledby="publications-title">
-      <div class="section-topline">
-        <div class="section-label"><span>03</span> Publications</div>
-        <p>For the complete list, see <a href="https://scholar.google.com/citations?hl=en&amp;user=ziDbA7AAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>.</p>
-      </div>
-      <h2 class="section-title" id="publications-title">Selected writing</h2>
       <ol class="publication-list">
         <li>
-          <div class="pub-year">2026</div>
-          <div class="pub-detail">
+          <p class="year">2026</p>
+          <div>
             <h3>Curiosity-Driven LLM-as-a-Judge for Personalized Creative Judgment</h3>
-            <p><strong>Vanya Bannihatti Kumar</strong>, Divyanshu Goyal, Akhil Eppa, Neel Bhandari</p>
-            <p class="venue">AAAI 2026 Workshop on Creative AI for Live Interactive Performances · Oral</p>
+            <p><strong>Vanya Bannihatti Kumar</strong>, Divyanshu Goyal, Akhil Eppa, Neel Bhandari.</p>
+            <p class="venue">AAAI 2026 Workshop on Creative AI for Live Interactive Performances · Oral · <a href="https://arxiv.org/abs/2510.05135" target="_blank" rel="noreferrer">arXiv</a></p>
           </div>
-          <a href="https://arxiv.org/abs/2510.05135" target="_blank" rel="noreferrer">arXiv</a>
         </li>
         <li>
-          <div class="pub-year">2025</div>
-          <div class="pub-detail">
+          <p class="year">2025</p>
+          <div>
             <h3>Self-Correction for OOD Generalization</h3>
-            <p><strong>Vanya Bannihatti Kumar</strong>, Abhinav Rao, Aditi Raghunathan</p>
-            <p class="venue">ICLR 2025 Workshop on Scaling Self-Improving Foundation Models without Human Supervision</p>
+            <p><strong>Vanya Bannihatti Kumar</strong>, Abhinav Rao, Aditi Raghunathan.</p>
+            <p class="venue">ICLR 2025 Workshop on Scaling Self-Improving Foundation Models without Human Supervision.</p>
           </div>
-          <span class="pub-status">Workshop</span>
         </li>
         <li>
-          <div class="pub-year">2024</div>
-          <div class="pub-detail">
+          <p class="year">2024</p>
+          <div>
             <h3>ML-SUPERB 2.0: Benchmarking Multilingual Speech Models Across Modeling Constraints, Languages, and Datasets</h3>
             <p>Jiatong Shi, Shih-Heng Wang, William Chen, Martijn Bartelds, <strong>Vanya Bannihatti Kumar</strong>, et al.</p>
-            <p class="venue">Interspeech 2024 · Oral</p>
+            <p class="venue">Interspeech 2024 · Oral · <a href="https://arxiv.org/abs/2406.08641" target="_blank" rel="noreferrer">arXiv</a></p>
           </div>
-          <a href="https://arxiv.org/abs/2406.08641" target="_blank" rel="noreferrer">arXiv</a>
         </li>
         <li>
-          <div class="pub-year">2023</div>
-          <div class="pub-detail">
+          <p class="year">2023</p>
+          <div>
             <h3>Visual Information Matters for ASR Error Correction</h3>
-            <p><strong>Vanya Bannihatti Kumar</strong>, Shanbo Cheng, Ningxin Peng, Yuchen Zhang</p>
-            <p class="venue">ICASSP 2023</p>
+            <p><strong>Vanya Bannihatti Kumar</strong>, Shanbo Cheng, Ningxin Peng, Yuchen Zhang.</p>
+            <p class="venue">ICASSP 2023 · <a href="https://arxiv.org/abs/2303.10160" target="_blank" rel="noreferrer">arXiv</a></p>
           </div>
-          <a href="https://arxiv.org/abs/2303.10160" target="_blank" rel="noreferrer">arXiv</a>
         </li>
         <li>
-          <div class="pub-year">2021</div>
-          <div class="pub-detail">
+          <p class="year">2021</p>
+          <div>
             <h3>Automated Evaluation of GNN Explanations with Neuro-Symbolic Reasoning</h3>
-            <p><strong>Vanya Bannihatti Kumar</strong>, Muhammed Ameen, Balaji Ganesan, Devbrat Sharma, Arvind Agarwal</p>
-            <p class="venue">NeurIPS 2021 Competitions and Demonstrations Track</p>
+            <p><strong>Vanya Bannihatti Kumar</strong>, Muhammed Ameen, Balaji Ganesan, Devbrat Sharma, Arvind Agarwal.</p>
+            <p class="venue">NeurIPS 2021 Competitions and Demonstrations Track · <a href="https://proceedings.mlr.press/v176/kumar22a.html" target="_blank" rel="noreferrer">Paper</a></p>
           </div>
-          <a href="https://proceedings.mlr.press/v176/kumar22a.html" target="_blank" rel="noreferrer">Paper</a>
-        </li>
-        <li>
-          <div class="pub-year">2021</div>
-          <div class="pub-detail">
-            <h3>Towards Automated Evaluation of Explanations in Graph Neural Networks</h3>
-            <p><strong>Vanya Bannihatti Kumar</strong>, Balaji Ganesan, Aniket Saxena, Devbrat Sharma, Arvind Agarwal</p>
-            <p class="venue">XAI ICML 2021 Workshop · WiML at NeurIPS 2021</p>
-          </div>
-          <a href="https://arxiv.org/abs/2106.11864" target="_blank" rel="noreferrer">arXiv</a>
         </li>
       </ol>
     </section>
 
-    <section class="experience section section-tint" id="experience" aria-labelledby="experience-title">
-      <div class="experience-header">
-        <div class="section-label"><span>04</span> Experience</div>
-        <h2 class="section-title" id="experience-title">Research with a path to use.</h2>
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
+      <div class="experience-list">
+        <article>
+          <p class="date">2025–present</p>
+          <div>
+            <h3>Adobe — Machine Learning Engineer</h3>
+            <p>Building creative-generation systems for marketing, including multi-agent workflows, brand-aware generation, and evaluation methods for open-ended content.</p>
+          </div>
+        </article>
+        <article>
+          <p class="date">2024</p>
+          <div>
+            <h3>Adobe Research — Research Intern</h3>
+            <p>Worked on multimodal video understanding and on-device face tracking for Adobe video products.</p>
+          </div>
+        </article>
+        <article>
+          <p class="date">2021–2023</p>
+          <div>
+            <h3>ByteDance AI Lab — NLP Research Engineer</h3>
+            <p>Developed and deployed language, speech, and translation systems in Dr. Hang Li’s NLP group.</p>
+          </div>
+        </article>
       </div>
-      <ol class="experience-list">
-        <li>
-          <p class="experience-date">2025—present</p>
-          <div>
-            <h3>Adobe · Machine Learning Engineer, GenStudio</h3>
-            <p>Creative-generation systems, personalized evaluation, brand-aware post-training, and reinforcement learning for multi-agent reliability.</p>
-          </div>
-        </li>
-        <li>
-          <p class="experience-date">2024</p>
-          <div>
-            <h3>Adobe Research · Research Intern, Video AI Lab</h3>
-            <p>On-device video understanding, multimodal semantic search, and efficient face-tracking systems.</p>
-          </div>
-        </li>
-        <li>
-          <p class="experience-date">2023—2024</p>
-          <div>
-            <h3>Carnegie Mellon University · M.S., Intelligent Information Systems</h3>
-            <p>Research in multilingual NLP, multimodal learning, and speech foundation models.</p>
-          </div>
-        </li>
-        <li>
-          <p class="experience-date">2021—2023</p>
-          <div>
-            <h3>ByteDance AI Lab · NLP Research Engineer</h3>
-            <p>Scalable synthetic-data training, multilingual text systems, text-to-speech translation, and grammar error correction.</p>
-          </div>
-        </li>
-      </ol>
-      <p class="education-note">B.Tech. in Aerospace Engineering (Honours), IIT Madras · Minors in Computing and Machine Learning &amp; AI</p>
+      <p class="education">M.S., Intelligent Information Systems, Carnegie Mellon University · B.Tech., Aerospace Engineering, IIT Madras</p>
     </section>
 
-    <section class="contact section" id="contact" aria-labelledby="contact-title">
-      <div class="section-label"><span>05</span> Contact</div>
-      <div class="contact-grid">
-        <h2 id="contact-title">Open to thoughtful research conversations and collaborations.</h2>
-        <div>
-          <a class="email-link" href="mailto:vanyabk999@gmail.com">vanyabk999@gmail.com</a>
-          <p>For research, collaboration, or work related to creative intelligence and model evaluation.</p>
-        </div>
-      </div>
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p>For research conversations, collaborations, or speaking invitations: <a href="mailto:vanyabk999@gmail.com">vanyabk999@gmail.com</a>.</p>
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="shell site-footer">
     <span>© <span id="year"></span> Vanya Bannihatti Kumar</span>
-    <a href="#top">Back to top ↑</a>
+    <a href="#top">Back to top</a>
   </footer>
 
   <script src="script.js"></script>
