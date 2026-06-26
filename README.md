@@ -1,19 +1,17 @@
-# Quiet academic homepage
+# Vanya BK — Minimal GitHub Pages homepage
 
-A compact, plain HTML/CSS/JavaScript GitHub Pages site. It intentionally avoids hero banners, oversized type, animations, gradients, cards, and decorative section treatments.
+This version intentionally avoids a hero section, decorative cards, gradients, illustrations, and persistent navigation. It is a single, responsive, static homepage inspired by restrained academic sites.
 
 ## Publish
 
-1. Download and unzip this folder.
-2. Replace the contents of the root of `VanyaBK/vanyabk.github.io` with these files.
-3. Commit and push to the `main` branch.
-4. GitHub Pages will publish the update automatically.
+1. Download this folder or the accompanying ZIP file.
+2. In `VanyaBK/vanyabk.github.io`, replace the homepage files with `index.html`, `styles.css`, and `script.js`.
+3. Commit to the branch used by GitHub Pages.
 
-## Files
+No build tooling is required.
 
-- `index.html` — page content and links
-- `styles.css` — visual styling
-- `script.js` — footer year only
-- `assets/favicon.svg` — small browser icon
+## Before publishing
 
-Before publishing, review all external paper links and replace or add any preferred CV link.
+- Update the email address if needed.
+- Add a public CV link only after removing personal contact details from the PDF.
+- Confirm the desired paper links for publications without public links.
