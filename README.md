@@ -18,3 +18,7 @@ The site is pure HTML and CSS; no build step is needed.
 ## Design intent
 
 This deliberately uses a white page, standard blue links, normal-sized type, and no hero/banner treatment. The paper tiles are intentionally monochrome and function like paper thumbnails rather than portfolio cards.
+
+
+## Small thumbnails
+Publication thumbnails have been reduced to 128px wide on desktop and mobile.
