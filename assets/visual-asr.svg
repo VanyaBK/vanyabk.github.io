@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 255" role="img" aria-label="Paper preview">
+  <rect width="380" height="255" fill="#fbfbfb"/>
+  <rect x="16" y="14" width="348" height="227" fill="#ffffff" stroke="#dedede"/>
+  <text x="34" y="43" font-family="Georgia, serif" font-size="15" fill="#262626">Visual ASR error correction</text>
+  <line x1="34" y1="56" x2="198" y2="56" stroke="#c6c6c6"/>
+  <rect x="43" y="86" width="122" height="78" fill="#f2f2f2" stroke="#ababab"/>
+  <circle cx="103" cy="120" r="19" fill="none" stroke="#7f7f7f" stroke-width="2"/>
+  <path d="M56 153l29-25 21 17 17-13 30 21" fill="none" stroke="#a0a0a0" stroke-width="2"/>
+  <path d="M198 95 C207 79,216 111,225 95 S243 79,252 95 S270 111,279 95 S297 79,306 95" fill="none" stroke="#818181" stroke-width="2"/>
+  <path d="M198 135h116M198 149h88" stroke="#bebebe" stroke-width="4" stroke-linecap="round"/>
+  <path d="M165 126h23" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M180 118l10 8-10 8" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="34" y="218" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#777">vision + speech + text · 2023</text>
+</svg>
