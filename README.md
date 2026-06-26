@@ -1,6 +1,6 @@
 # Vanya BK personal website
 
-A quiet, research-first GitHub Pages homepage modelled on the *information hierarchy* of a traditional academic research page: compact biography, small portrait at right, a short research statement, and paper rows with previews.
+A quiet, research-first GitHub Pages homepage modelled on the *information hierarchy* of a traditional academic research page: compact biography, a short research statement, and paper rows with previews.
 
 ## Publish
 
@@ -12,7 +12,6 @@ The site is pure HTML and CSS; no build step is needed.
 
 ## Before publishing
 
-- Replace `assets/profile-placeholder.svg` with a square photo named `profile.jpg` and change the `<img>` source in `index.html` to `assets/profile.jpg`.
 - The packaged CV is the supplied resume. Remove or replace it before publishing if you do not want its contact details publicly accessible.
 - Update or remove any social link whose destination you want to change.
 
